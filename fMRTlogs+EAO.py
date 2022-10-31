@@ -32,4 +32,4 @@ for file in files:
             sim_list.append(sim_value[0])
     #dat['videonames'] = transferlist
     dat['eigenvalues'] = sim_list
-    dat.to_csv('C:/Users/Pathfinder/Desktop/work/MSc KIS/10 Abschlussarbeit - 30LP/fMRT Eventlogs/combined/EAO/' +file, index = False, sep='\t')
+    dat.to_csv('~/fMRT Eventlogs/combined/EAO/' +file, index = False, sep='\t')
